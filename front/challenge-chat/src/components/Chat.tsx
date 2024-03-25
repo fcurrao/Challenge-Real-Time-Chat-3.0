@@ -130,9 +130,9 @@ const Header = ({ status }: { status: "idle" | "writing" | "waiting" }) => (
       </div>
       <div className="flex flex-col leading-tight">
         <div className="text-2xl mt-1 flex items-center">
-          <span className="text-gray-700 mr-3">Anderson Vanhron</span>
+          <span className="text-gray-700 mr-3">Federico Currao</span>
         </div>
-        <span className="text-lg text-gray-600">Junior Developer</span>
+        <span className="text-lg text-gray-600"> Developer</span>
         <span> {status === "waiting" ? "Writing..." : "Live"} </span>
       </div>
     </div>
